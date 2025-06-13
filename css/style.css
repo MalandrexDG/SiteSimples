@@ -1,0 +1,68 @@
+body, html
+{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000000, #757575);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 
+{
+  font-size: 3.0em;
+  margin-bottom: 20px;
+}
+
+h5 
+{
+  font-size: 1.3em;
+}
+
+p 
+{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b 
+{
+  font-size: 1.35em;
+  color: red;
+}
+
+a
+{
+  text-decoration: none;
+  color: inherit
+}
+
+.custom-header 
+{
+  background-image: url('../images/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 550px;
+
+}
+
+.navbar 
+{
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none;
+}
+
+.form-label
+{
+  font-size: 2.0em;
+}
+
+.row:hover
+{
+  min-height: 600px;
+}
